@@ -1,5 +1,6 @@
 countdown = 10 
-while countdown <= 10 && countdown > 0 do
+while countdown <= 10 do
+  break if countdown == 0
   puts countdown
   countdown -=
 end
